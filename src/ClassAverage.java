@@ -18,6 +18,7 @@ public class ClassAverage {
 			total = total + grade;
 			gradeCounter++;
 			
+			
 		}
 		
 		int average = total / 10;
