@@ -9,7 +9,7 @@ public class ShapesTest {
 		
 		
 		
-		String input = JOptionPane.showInputDialog("Enter 1 to draw rectangles\n" + "Enter 2 to draw ovals");
+		String input = JOptionPane.showInputDialog("Enter 1 to draw rectangles\n" + "Enter 2 to draw ovals\n" + "Enter 3 to draw circles");
 		
 		int choice = Integer.parseInt(input);
 		Shapes testShape = new Shapes(choice);
