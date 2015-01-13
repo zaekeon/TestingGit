@@ -24,6 +24,7 @@ public class Craps {
 		case SEVEN:
 		case YO_LEVEL:
 			gameStatus = Status.WON;
+			
 			break;
 		case SNAKE_EYES:
 		case TREY:
