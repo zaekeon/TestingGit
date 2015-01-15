@@ -2,7 +2,7 @@
 public class ArrayTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 		int [] value1 = {1,2,3,4,5};
 		
