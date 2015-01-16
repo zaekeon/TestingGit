@@ -17,7 +17,7 @@ public class ArrayTest2 {
 		}
 		
 	
-		ArrayObject test1 = new ArrayObject("theobject", testarray);
+	ArrayObject test1 = new ArrayObject("theobject", testarray);
 	test1.printValues();
 	test1.modifyValueThis();
 	test1.printValues();

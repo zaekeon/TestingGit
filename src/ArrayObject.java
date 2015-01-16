@@ -5,14 +5,14 @@ public class ArrayObject {
 	private String name;
 	
 	
-	public ArrayObject(String name, int[] values)
+public ArrayObject(String name, int[] values)
 	{
 		this.name = name;
 		this.values = values;
 	}
 	
 	
-	public void printValues()
+public void printValues()
 	{
 		//print name
 		System.out.println(name);
