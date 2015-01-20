@@ -8,6 +8,9 @@ public class ArrayListCollection {
 		//create arraylist
 		ArrayList<String> items = new ArrayList<String>();
 		
+		//Java 7 simplfied
+		//ArrayList<String> items = new ArrayList<>();
+		
 		items.add("red");
 		items.add(0, "yellow");
 		
