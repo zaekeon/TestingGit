@@ -7,7 +7,7 @@ public class CommissionEmployee {
     private final String lastName;
     private final String socialSecurityNumber;
     private double grossSales;
-    private double commissionRate;
+    protected double commissionRate;
 
     public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double commissionRate)
     {
