@@ -38,7 +38,7 @@ public class HourlyEmployee extends Employee2{
 	public void setWage(double wage)
 	{
 		if (wage < 0.0) //validate wage
-			throw new IllegalArugmentException("hourly wage must be >= 0.0");
+			throw new IllegalArgumentException("hourly wage must be >= 0.0");
 		
 		this.wage = wage;
 	}
@@ -53,13 +53,12 @@ public class HourlyEmployee extends Employee2{
 		return hours;
 	}
 	
-	@override
+	@Override
 	public String toString()
 	{
-		return String toString()
-				{
-			return String.format("hourly employee: %s%n%s: $%,.2f; %s: %,.2f",super.toString(),"hourly wage", getWage(),"hours worked", getHours());
-				}
+	
+		return String.format("hourly employee: %s%n%s: $%,.2f; %s: %,.2f",super.toString(),"hourly wage", getWage(),"hours worked", getHours());
+			
 	}
 
 	

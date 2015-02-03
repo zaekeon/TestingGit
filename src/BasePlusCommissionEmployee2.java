@@ -26,7 +26,7 @@ public class BasePlusCommissionEmployee2 extends CommissionEmployee2 {
 	public void setBaseSalary(double baseSalary)
 	{
 		if (baseSalary < 0.0) //validate baseSalary
-			throw new IllegalArghumentException("Base salary must be >= 0.0");
+			throw new IllegalArgumentException("Base salary must be >= 0.0");
 		
 		this.baseSalary = baseSalary;
 	}
