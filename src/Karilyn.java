@@ -15,6 +15,7 @@ public class Karilyn {
 		for (int i : meow)
 		{
 			System.out.println(i);
+			System.out.println("I'm fine meow meow");
 		}
 
 	}
