@@ -7,9 +7,19 @@ public class Addition {
 
 		String firstNumber = JOptionPane.showInputDialog("Enter first integer");
 		String secondNumber = JOptionPane.showInputDialog("Enter second Integer");
+		int number1 =0;
+		int number2 = 0;
+		try
+		{
+			number1 = Integer.parseInt(firstNumber);
+			number2 = Integer.parseInt(secondNumber);
+		}
+		catch(NumberFormatException e)
+		{
+			JOptionPane.showMessageDialog(null, "You entered invalid input in one of the dialogs");
+		System.exit(0);
+		}
 		
-		int number1 = Integer.parseInt(firstNumber);
-		int number2 = Integer.parseInt(secondNumber);
 		
 		int sum = number1 + number2;
 		
